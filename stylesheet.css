@@ -1,0 +1,149 @@
+html {
+  font-family: Arial;
+  font-size: 13px;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  padding: 0px;
+  background: white;
+}
+
+#content {
+  margin-top: 0px;
+  margin-bottom: 16000px;
+  padding: 10px;
+  padding-bottom: 80px; /* height of the footer element */
+}
+
+form img {
+	position: relative;
+	top: -24px;
+	left: 271px;
+}
+
+#footer {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #f5f5f5;
+  display: inline;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  border: 1px solid;
+  font-family: Arial;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 12px;
+  border-radius: 3px;
+}
+
+li {
+  height: 20px;
+  float: right;
+  display: inline;
+  list-style-type: none;
+  width: 40px;
+  padding: 2px;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+
+li:first-child {
+  padding-bottom: 8px;
+}
+
+li:nth-child(2) {
+  background: url(https://raw.githubusercontent.com/vahe1/
+  google-homepage/master/images/apps.png) no-repeat;
+  background-size: 25px 25px;
+  margin-left: 12px;
+}
+
+li a:hover {
+   text-decoration: underline;
+}   
+
+
+.textBox {
+  height: 27px;
+  width: 560px;
+  position: center;
+  background-origin: content-box;
+  background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSW5LDTZgSQiAHKD58w-ucEfIFW3vy55DsNMVizJbEdGnZcz5j2);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 16px;
+  margin-right: 0px;
+  border: 1px solid #0174DF;
+  box-shadow: 0 0 3px 0;
+}
+
+.button2 {
+  color: black;
+  font-size: 11px;
+  background-color: #f5f5f5;
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 12px;
+  border-radius: 3px;
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   border-top: 1px solid #e4e4e4;
+   width: 100%;
+   background-color: #f2f2f2;
+   line-height: 2px;
+   height: 60px;
+}
+
+footer li {
+	color: #666;
+}
+
+.footer-nav-left {
+  float: left;
+  margin-left: 25px;
+}
+
+.footer-nav-left li {
+  margin-right: 27px;
+}
+
+ .footer-nav-right {
+   float: right;
+   margin-right: 25px;
+ }
+
+.footer-nav-right li {
+  margin-right: 27px;
+}
+
+footer a {
+  font-size: 14px;
+  color: grey;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 5px;
+}
